@@ -1,0 +1,50 @@
+.navbar .container {
+  display: flex;
+  align-items: center;
+}
+
+.input + div {
+  margin-left: 2em;
+}
+
+.input {
+  flex: 1;
+}
+
+.nav {
+  flex: 1;
+}
+
+.nav a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input input {
+  width: 100%;
+  padding: 0.45em;
+  font-size: 1.2rem;
+}
+
+.input input:focus {
+    border: none;
+    outline: none;
+    padding: calc(0.45em + 2px);
+}
+
+.navbar {
+  background: black;
+  color: white;
+  padding: 0.5em 0;
+  font-size: 1.2em;
+}
+
+a.active {
+  color: purple;
+}
